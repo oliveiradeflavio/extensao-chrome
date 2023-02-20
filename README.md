@@ -26,6 +26,7 @@ Essa extensão irá atualizar a página de acordo com a configuração, seja ela
 <!-- USAGE EXAMPLES -->
 ## Demo
 
+![gif](https://github.com/oliveiradeflavio/extensao-chrome/blob/main/img/extensao_chrome.gif)
 ![Segundos](https://github.com/oliveiradeflavio/extensao-chrome/blob/main/img/segundos.png)
 ![DataHora](https://github.com/oliveiradeflavio/extensao-chrome/blob/main/img/data-hora.png)
 
