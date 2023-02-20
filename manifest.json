@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Atualiza Página Web",
+    "description": "Atualiza a página web automaticamente.Selecione por segundos ou por data e hora. Extensão desenvolvida por Flávio Oliveira. ",
+    "version": "1.0",
+    "author": "Flávio Oliveira",
+    "homepage_url": "https://oliveiradeflavio.github.io",
+    "icons": {
+        "16": "refresh_icon.png",
+        "48": "refresh_icon.png",
+        "128": "refresh_icon.png"
+    },
+    "action":{
+        "default_popup": "index.html"
+        },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+   
+}

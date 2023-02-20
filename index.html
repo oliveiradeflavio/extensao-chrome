@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Atualizar Página Automaticamente</title>
+    </head>
+    <body>
+
+        <main>
+            <section id="container_principal">             
+                <input class="radio" id="um" name="group" type="radio" checked>
+                <input class="radio" id="dois" name="group" type="radio">
+     
+                <div class="tabs">
+                    <label class="tab" id="tab1" for="um">X segundos</label>
+                    <label class="tab" id="tab2" for="dois">Data e Hora</label>
+                </div>
+
+                <div class="panels">
+                    <div class="panel" id="tab_panel_1">
+                        <p>A cada x segundos</p>
+                        <div>
+                            <input type="range" min="0" max="60" value="0"
+                                id="intervalo">
+                            <span id="valor"></span>
+                        </div>
+        
+                        <button id="btnAtualizarPagina" disabled >Iniciar
+                           </button>
+                        <button id="stop">Parar</button>
+
+                    </div>
+
+                    <div class="panel" id="tab_panel_2">
+                        <p>Por Data e Hora</p>
+                        <div>
+                            <input type="date" id="data">
+                            <input type="time" step="any" id="hora">
+        
+                        </div>
+                        <button id="btnAtualizarPaginaData" >Agendar
+                            </button>
+                        <button id="stopData">Cancelar</button>
+                        <div>
+                            <p id="msg"></p>
+                        </div>
+                    </div>
+                </div> 
+                <div>
+                    <a href="https://oliveiradeflavio.github.io" target="_blank">Flávio Oliveira</a>
+                </div>             
+            </section>
+        </main>
+        <script src="extensao_chrome.js"></script>
+    </body>
+</html>
